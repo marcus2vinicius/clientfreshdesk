@@ -105,7 +105,7 @@ public class TicketTest {
 
 
         //region list Tickets by User Email
-        List<Ticket> tickets = getTicketsByUserEmail("luciano.skyline@hotmail.com");
+        List<Ticket> tickets = getTicketsByUserEmail("flavio@hotmail.com");
         //endregion list Tickets by User Email
     }
 
