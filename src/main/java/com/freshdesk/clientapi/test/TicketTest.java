@@ -165,12 +165,12 @@ public class TicketTest {
 
     private static Ticket postTicket() {
         Ticket t = new Ticket();
-        t.setEmail("luciano.skyline@hotmail.com");
+        t.setEmail("flavio@hotmail.com");
         t.setDescription("Conteudo da treta man");
         t.setPriority(1);
         t.setStatus(2);
         t.setSubject("Ticket test por luciano");
-        t.addCc_email("viny.md@hotmail.com");//.addCc_email("dasdsa@hotmail.com");
+        t.addCc_email("marcusvinicius@hotmail.com");//.addCc_email("dasdsa@hotmail.com");
         t.setResponder_id(14001031858l);
         TicketRepository ticketRepository = new TicketRepository();
         Ticket ticket = ticketRepository.save(t);
